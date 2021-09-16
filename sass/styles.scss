@@ -1,0 +1,75 @@
+@import 'header';
+@import 'fotoCiudad';
+@import 'nos';
+@import 'clientes';
+@import 'footer';
+@import 'responsive';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'STIX Two Text', serif;
+}
+* h2 {
+    margin-top: 90px;
+    font-size: 70px;
+    border: 5px solid black;
+}
+body {
+    &#body {
+        background-image: url(../multimedia/fondo-pag-5.jpeg);
+        display: grid;
+        grid-template-areas:
+        "encabezado encabezado encabezado"
+        "principal principal principal"
+        "pie pie pie";
+        grid-template-rows: 150px auto 200px;
+        grid-template-columns: auto auto;
+    }
+}
+
+main {
+    grid-area: principal;
+    h2.h2 {
+        background-color: #d81887;
+        color: cornsilk;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    h2.titulo {
+        font-size: 70px;
+        text-align: center;
+        background-size: cover;
+        background-color: #d81887;
+        color: cornsilk;
+        }
+    hr {
+        margin-top: 450px;
+    }
+    form.form{
+            fieldset.form__cuadro {
+                legend.info {
+                    border: 2px solid black;
+                    background-color: darksalmon;
+                    margin-bottom: 20px;
+                }
+            }
+    }
+    div.textoFinal {
+        h3 {
+            &#valores {
+                margin-top: 50px;
+            }
+        }
+        p.txtUno {
+            margin-bottom: 50px;
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        p {
+            margin-bottom: 60px;
+            font-size: 30px;
+        }
+    }
+}

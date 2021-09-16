@@ -1,0 +1,22 @@
+div.fotoCiudad {
+        background-image: url(../multimedia/la-plata.jpg);
+        min-height: 320px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 600px;
+        text-align: center;
+        color: white;
+        padding-top: 5px;
+        border: 2px solid green;
+        div.fotoCiudad__div {
+            h1 {
+                &#nosotros {
+                    background: rgba(0, 0, 0, 0.673);
+                    padding: 10px;
+                    font-size: 70px;
+                    margin-top: 120px;
+                }
+            }
+        }
+}
