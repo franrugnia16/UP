@@ -6,7 +6,8 @@
 }
 
 #body {
-    background-image: url(../multimedia/fondo-pag-5.jpeg);
+/*     background-image: url(../multimedia/fondo-pag-5.jpeg); */
+background-color: #26856e;
     display: grid;
     grid-template-areas:
     "encabezado encabezado encabezado"
@@ -423,7 +424,7 @@ footer {
         width: 1350px;
         height: 160px;
         margin-left: -46px;
-        border: 1px solid;
+        border: 3px solid black;
         background-image: linear-gradient(to bottom,  #26856e, #26856e, white);
     }
 }
