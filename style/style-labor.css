@@ -109,5 +109,5 @@ li.open-submenu:hover ul.submenu {
     height: 200px;
     margin-left: -46px;
     border: 1px solid;
-    background-image: linear-gradient(to bottom, red, orange, yellow);
+    background-image: linear-gradient(to bottom,  #26856e, #26856e, white);
 }
