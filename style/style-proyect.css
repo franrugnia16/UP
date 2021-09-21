@@ -121,14 +121,17 @@ li.open-submenu:hover ul.submenu {
         background-color: white;
         width: 480px;
     }
-    header .header__logo img {
+    header .logo img {
         margin-left: -50px;
         margin-right: 10px;
         width: 110px;
     }
-    header .header__menu ul {
+    header .menu ul {
         margin-left: 10px;
         margin-top: 5px;
+    }
+    .proyectos .H1 {
+        width: 480px;
     }
     .h2 {
         font-size: 50px;
@@ -155,8 +158,11 @@ li.open-submenu:hover ul.submenu {
         font-size: 15px;
         width: 1023px;
     }
-    .header__menu {
+    .header .menu {
         margin-left: 20px;
+    }
+    .proyectos .H1 {
+        width: 1023px;
     }
     .h2 {
         font-size: 60px;
@@ -182,10 +188,8 @@ li.open-submenu:hover ul.submenu {
         width: 1349px;
         background-color: #26856e;
     }
-    .h2 {
-        width: 1388px;
-        margin-left: -40px;
-        font-size: 150px;
+    .proyectos .H1 {
+        width: 1349px;
     }
     .pie a {
         color: black;
@@ -194,7 +198,7 @@ li.open-submenu:hover ul.submenu {
         margin-left: 45px;
         margin-top: 150px;
     }
-    .pie .pie__gradient {
+    .pie .gradient {
         width: 1345px;
         height: 160px;
         margin-left: -46px;
