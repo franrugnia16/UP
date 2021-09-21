@@ -118,8 +118,8 @@ li.open-submenu:hover ul.submenu {
 /* medida celular */
 @media screen and (max-width: 480px) {
     header {
-        background-color: white;
-        width: 480px;
+        background-color: #d81887;
+        width: 1400px;
     }
     header .logo img {
         margin-left: -50px;
@@ -131,16 +131,18 @@ li.open-submenu:hover ul.submenu {
         margin-top: 5px;
     }
     .proyectos .H1 {
-        width: 480px;
+        width: 1400px;
     }
-    .h2 {
-        font-size: 50px;
-        width: fit-content;
-        margin-left: 150px;
+    #foto.fotoProyect {
+        width: 1400px;
     }
-    .pie {
-        width: 480px;
-        height: 160px;
+    .texto {
+        font-size: 30px;
+        width: 1400px;
+    }
+    .pie .gradient{
+        width: 1400px;
+        height: 200px;
         border: 3px solid black;
         background-color: cadetblue;
     }
@@ -153,25 +155,25 @@ li.open-submenu:hover ul.submenu {
 @media screen and (min-width: 481px) {
     header {
         background-color: #d81887;
-    }
-    header {
         font-size: 15px;
-        width: 1023px;
+        width: 1400px;
     }
     .header .menu {
         margin-left: 20px;
     }
     .proyectos .H1 {
-        width: 1023px;
+        width: 1400px;
     }
-    .h2 {
-        font-size: 60px;
-        width: fit-content;
-        margin-left: 420px;
+    #foto.fotoProyect {
+        width: 1400px;
     }
-    .pie {
-        width: 1023px;
-        height: 160px;
+    .texto {
+        font-size: 30px;
+        width: 1400px;
+    }
+    .pie .gradient {
+        width: 1400px;
+        height: 200px;
         border: 3px solid black;
         background-color: cadetblue;
 }
@@ -199,11 +201,11 @@ li.open-submenu:hover ul.submenu {
         margin-top: 150px;
     }
     .pie .gradient {
-        width: 1345px;
-        height: 160px;
+        width: 1350px;
+        height: 200px;
         margin-left: -46px;
         border: 3px solid black;
-        background-image: linear-gradient(to bottom,  #26856e, #26856e, white);
+        background-image: linear-gradient(to bottom, #26856e, #26856e, white);
     }
 }
 }
