@@ -32,6 +32,7 @@ header .header__logo img {
 header .header__menu ul {
     list-style: none;
     margin-top: 30px;
+    margin-right: 60px;
 }
 
 header .header__menu ul li {
