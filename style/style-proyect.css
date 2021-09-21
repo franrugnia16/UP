@@ -138,7 +138,8 @@ li.open-submenu:hover ul.submenu {
     }
     .texto {
         font-size: 30px;
-        width: 480px;
+        width: 400px;
+        margin-left: 40px;
     }
     .pie .gradient{
         width: 480px;
