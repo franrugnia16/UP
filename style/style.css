@@ -104,8 +104,7 @@ main {
 }
 
 
-.nos .nos__container .info {
-    background: rgb(123, 179, 224);
+.nos .nos__container #info {
     width: 1250px;
     padding: 20px;
     border-radius: 15px;
@@ -129,23 +128,6 @@ main {
 
 .hr {
     margin-top: 450px;
-}
-
-
-.textoFinal .txtUno {
-    margin-bottom: 50px;
-    margin-top: 100px;
-    font-size: 30px;
-}
-
-.textoFinal p {
-    margin-bottom: 60px;
-    font-size: 30px;
-}
-
-
-#valores {
-    margin-top: 50px;
 }
 
 /* pie de pagina */
@@ -173,6 +155,7 @@ footer {
     font-size: 30px;
     margin-bottom: 100px;
 }
+
 
 
 /* medida celular */
@@ -205,12 +188,12 @@ footer {
         height: 900px;
     }
     
-    .nos .nos__container .info {
+    .nos .nos__container #info {
         background-image: url(../multimedia/fondo-pag-5.jpeg) ;
         width: 460px;
         font-size: 20px;
     }
-    .nos .nos__container .info p {
+    .nos .nos__container #info p {
         margin-bottom: 30px;
     }
     .form {
@@ -219,15 +202,6 @@ footer {
     }
     .form .form__cuadro {
         margin-top: 100px;
-    }
-    .textoFinal .txtUno {
-        font-size: 30px;
-        width: 380px;
-        margin-left: 55px;
-    }
-    .textoFinal p {
-        width: 380px;
-        margin-left: 55px;
     }
     .pie {
         width: 480px;
@@ -270,18 +244,8 @@ footer {
     .nos {
         width: 1023px;
     }
-    .info p {
+    #info p {
         font-size: 26px;
-    }
-    .textoFinal .txtUno {
-        font-size: 30px;
-        width: 980px;
-        margin-left: 40px;
-    }
-    .textoFinal p {
-        width: 980px;
-        font-size: 30px;
-        margin-left: 40px;
     }
     .form {
         width: 1023px;
@@ -320,21 +284,14 @@ footer {
         width: fit-content;
         
     }
-    .nos .nos__container .info p {
+    .nos .nos__container #info p {
         font-size: 30px;
         height: 650px;
+        margin-left: 50px;
     }
     .form .form__cuadro {
         width: 930px;
         margin-left: 200px;
-    }
-    .textoFinal .txtUno {
-        width: auto;
-        font-size: 30px;
-    }
-    .textoFinal p {
-        width: auto;
-        font-size: 30px;
     }
     .pie a {
         color: black;

@@ -63,9 +63,9 @@ li.open-submenu:hover ul.submenu {
 }
 
 .comunicacion .comunicacion__H1 {
-    font-size: 70px;
-    background-color: #d81887;
-    color: cornsilk;
+    font-size: 60px;
+    background-color: white;
+    color: black;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -92,7 +92,6 @@ li.open-submenu:hover ul.submenu {
 .texto {
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: rgb(73, 107, 146);
 }
 
 .pie {
@@ -197,7 +196,9 @@ li.open-submenu:hover ul.submenu {
         width: 1340px;
     }
     .texto {
-        width: 1348px;
+        width: 1048px;
+        margin-left: 150px;
+        margin-top: 90px;
     }
     .pie a {
         color: black;
